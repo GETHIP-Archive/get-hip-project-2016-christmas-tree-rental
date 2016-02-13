@@ -6,7 +6,6 @@ overflow: hidden;
 background-color: black;
 font-family: Helvetica-light, Tahoma, san-serif;
 font-size: 22px;
-
 }
 li {
 	float: left;
@@ -17,18 +16,16 @@ li a {
 	text-align: center;
 	padding: 14px 60px;
 	text-decoration: none;
-	
 }
 li a:hover {
 	background-color: white;
-	
 }
 #cart {
 	float: right;
 	text-align: right;
 	padding-left:100px;
 }
-img{
+img {
 	float:right;
 	padding-left:50px;
 }
