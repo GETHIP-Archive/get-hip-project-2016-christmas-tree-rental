@@ -3,19 +3,20 @@ html, body {
     height:100%;
     margin:0;
     padding:0;
+    background-color:#FAFAFA;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: /*#E71630*/black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     width:100%;
 }
 li.home {
-    margin-right:2.5em;
+    margin-right:4em;
 }
 li {
 	float: left;
@@ -43,7 +44,7 @@ li a {
 	text-decoration: none;
 }
 li a:hover {
-	background-color: white;
+	background-color: #FAFAFA;
     color:black;
 }
 li#cart {
