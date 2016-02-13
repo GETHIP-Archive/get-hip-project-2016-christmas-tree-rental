@@ -14,8 +14,23 @@ ul {
     font-size: 1em;
     width:100%;
 }
+li.home {
+    margin-right:2.5em;
+}
 li {
 	float: left;
+}
+li#val i {
+    color:deeppink;
+}
+li#hal i {
+    color:orangered;
+}
+li#chr i {
+    color:green;
+}
+li#new i {
+    color:dodgerblue;
 }
 li a {
 	display: block;
