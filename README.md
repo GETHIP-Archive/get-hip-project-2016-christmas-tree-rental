@@ -26,7 +26,11 @@ The decorations table will contain a full index of all the offered decorations i
 
 The cart table will contain a listing of all items currently in the cart, including the following columns:
 
-TABLE\_WILLL\_GO\_HERE
+| Column Name | Data Type | Primary Key | Not Null | Binary | Zero Fill | Auto Increment | Default Value |
+|:-----------:|:---------:|:-----------:|:--------:|:------:|:---------:|:--------------:|:-------------:|
+| productid | INT | FALSE | TRUE | FALSE | FALSE | FALSE | NONE |
+| dateadded | DATE | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
+| cartid | INT | TRUE | TRUE | FALSE | FALSE | TRUE | NONE |
 
 ---
 
