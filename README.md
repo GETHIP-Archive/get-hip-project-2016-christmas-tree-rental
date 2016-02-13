@@ -26,7 +26,7 @@ The decorations table will contain a full index of all the offered decorations i
 
 **price**: A dollar price value for the product (Ex. `4.25`)
 
-**holiday**: The holiday associated with the decoration (Ex. `Christmas')
+**holiday**: The holiday associated with the decoration (Ex. `Christmas`)
 
 ####Cart
 
