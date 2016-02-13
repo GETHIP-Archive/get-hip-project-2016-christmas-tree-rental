@@ -11,7 +11,7 @@ ul {
     overflow: hidden;
     background-color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 1em;
     width:100%;
 }
 li {
@@ -21,13 +21,17 @@ li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 60px;
+	padding-right:2em;
+    padding-left:2em;
+    padding-top:0.75em;
+    padding-bottom:0.75em;
 	text-decoration: none;
 }
 li a:hover {
 	background-color: white;
+    color:black;
 }
-#cart {
+li#cart {
 	float: right;
 	text-align: right;
 	padding-left:100px;
