@@ -21,6 +21,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\avguest\Github"/>
 			<item value="C:\Users\Yuanchun\JerseyORMlite"/>
 		</list>
 		<list key="projectNameTemplate">
