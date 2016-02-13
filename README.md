@@ -23,7 +23,9 @@ The decorations table will contain a full index of all the offered decorations i
 | holiday | VARCHAR(20) | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
 
 **productid**: An auto-generated, auto-incrementing, identification number specific to each product (`142`)
+
 **price**: A dollar price value for the product (`4.25`)
+
 **holiday**: The holiday associated with the decoration ('"Christmas"')
 
 ####Cart
@@ -35,8 +37,9 @@ The cart table will contain a listing of all items currently in the cart, includ
 | productid | INT | FALSE | TRUE | FALSE | FALSE | FALSE | NONE |
 | dateadded | DATE | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
 
-*productid*: The productid number [found in the decorations table] identifying the product in the cart (`72`)
-*dateadded*: The date [in MySQL format] when the client added the product to their cart (`2016-02-19`)
+**productid**: The productid number [found in the decorations table] identifying the product in the cart (`72`)
+
+**dateadded**: The date [in MySQL format] when the client added the product to their cart (`2016-02-19`)
 
 ---
 
