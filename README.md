@@ -16,7 +16,11 @@ The DB (Database) root directory of this project's repository will contain an ex
 
 The decorations table will contain a full index of all the offered decorations including the following columns:
 
-TABLE\_WILL\_GO\_HERE
+| Column Name | Data Type | Primary Key | Not Null | Binary | Zero Fill | Auto Increment | Default Value |
+|:-----------:|:-----------:|:-----------:|:--------:|:------:|:---------:|:--------------:|:-------------:|
+| productid | INT | TRUE | TRUE | FALSE | FALSE | TRUE | NONE |
+| price | DOUBLE | FALSE | TRUE | FALSE | FALSE | FALSE | 0.00 |
+| holiday | VARCHAR(20) | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
 
 ####Cart
 
