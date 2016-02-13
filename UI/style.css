@@ -28,6 +28,8 @@ li a:hover {
 img {
 	float:right;
 	padding-left:50px;
+    width: 25px;
+    height: 25px;
 }
 h1 {
 	text-align: center;
