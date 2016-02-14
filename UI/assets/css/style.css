@@ -16,29 +16,50 @@ ul {
     width:100%;
 }
 li.home {
-    margin-right:4em;
 }
 li {
 	float: left;
 }
 li#val i {
     color:deeppink;
+    margin-left:auto;
+    margin-right:auto;
+}
+#holidays {
+    width:100%;
+    text-align: center;
 }
 li#hal i {
     color:orangered;
+    margin-left:auto;
+    margin-right:auto;
 }
 li#chr i {
     color:green;
+    margin-left:auto;
+    margin-right:auto;
 }
 li#new i {
     color:dodgerblue;
+    margin-left:auto;
+    margin-right:auto;
+}
+li#east i {
+    color:gold;
+    margin-left:auto;
+    margin-right:auto;
+}
+li#jul i {
+    color:blue;
+    margin-left:auto;
+    margin-right:auto;
 }
 li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding-right:2em;
-    padding-left:2em;
+	padding-right:1.5em;
+    padding-left:1.5em;
     padding-top:0.75em;
     padding-bottom:0.75em;
 	text-decoration: none;
