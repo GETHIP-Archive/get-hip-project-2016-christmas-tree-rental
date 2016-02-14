@@ -1,4 +1,26 @@
-##Holiday Tree and Decoration Rental
+#Holiday Tree and Decoration Rental
+
+---
+
+##Our Team
+
+We communicate through the GroupMe app.
+
+- Hannah May: Team Lead
+
+- Eddie Yuan: API Management
+
+- Ed Torres: API Management
+
+- Mary Claire Rodgers: Web Design
+
+- Thomas Gerot: AJAX Management
+
+---
+
+##Our Project
+
+We seek to create an online service that allows customers to rent out holiday decorations instead of wasting their own space storing the decorations for another year.
 
 ---
 
@@ -10,7 +32,7 @@ The API (Application Programming Interface) root directory of this project's rep
 
 ###DB
 
-The DB (Database) root directory of this project's repository will contain an exported CSV file (`.csv`) and/or Excel Spreadsheet (`.xls`) depicting the structure of our database. Our database will be hosted on James Getrost's own server, and managed through the phpmyadmin platform, and possible MySQL Workbench in the future. Currently our database is titled `rental` and contains two tables named `decorations` and `cart`.
+The DB (Database) root directory of this project's repository will contain an exported CSV file (`.csv`) and/or Excel Spreadsheet (`.xls`) depicting the structure of our database. Our database will be hosted on James Getrost's own server, and managed through the phpmyadmin platform, and possibly MySQL Workbench in the future. Currently our database is titled `rental` and contains two tables named `decorations` and `cart`.
 
 ####Decorations
 
