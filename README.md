@@ -22,8 +22,6 @@ We communicate through the GroupMe app.
 
 We seek to create an online service that allows customers to rent out holiday decorations instead of wasting their own space storing the decorations for another year.
 
----
-
 ###API
 
 The API (Application Programming Interface) root directory of this project's repository contains the Java backend/server-side portion of the project. The directory currently contains an Eclipse Maven project serving the API in a JSON (JavaScript Object Notation) for a JavaScript application to reach from the client-side.
