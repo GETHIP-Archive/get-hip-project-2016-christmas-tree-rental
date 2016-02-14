@@ -1,70 +1,85 @@
 <!DOCTYPE html>
+<html>
 <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/loading.css" />
+    <script type="text/javascript" src="assets/js/loading.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome-4.5.0/css/font-awesome.min.css" />
 </head>
 <body>
-    <ul>
-        <li id="home">
-            <a href="#">
-                <i class="fa fa-home"></i>
-                &nbsp;
-                Home
-            </a>
-        </li>
-        <div id="holidays">
-            <li id="new">
-                <a href="#">
-                    <i class="fa fa-glass"></i>
-                    &nbsp;
-                    New Year's
-                </a>
-            </li>
-            <li id="val">
-                <a href="#">
-                    <i class="fa fa-heart"></i>
-                    &nbsp;
-                    Valentine's Day
-                </a>
-            </li>
-            <li id="east">
-                <a href="#">
-                    <i class="fa fa-bell"></i>
-                    &nbsp;
-                    Easter
-                </a>
-            </li>
-            <li id="jul">
-                <a href="#">
-                    <i class="fa fa-flag"></i>
-                    &nbsp;
-                    Fourth of July
-                </a>
-            </li>
-            <li id="hal">
-                <a href="#">
-                    <i class="fa fa-bug"></i>
-                    &nbsp;
-                    Halloween
-                </a>
-            </li>
-            <li id="chr">
-                <a href="#">
-                    <i class="fa fa-tree"></i>
-                    &nbsp;
-                    Christmas
-                </a>
-            </li>
+    <!--Through loading.js only the #loading div (and its children) will be visible until page has fully loaded-->
+    <div id="loading">
+        <div class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
         </div>
-        <li id="cart">
-            <a href="#">
-                <i class="fa fa-shopping-cart"></i>
-                &nbsp;
-                Cart
-            </a>
-        </li>
-    </ul>
-    <h1>Holiday Rentals</h1>
-    <script type="text/javascript" src="assets/js/script.js" defer></script>
+    </div>
+    <div id="page">
+        <ul>
+            <li id="home">
+                <a href="#">
+                    <i class="fa fa-home"></i>
+                    &nbsp;
+                    Home
+                </a>
+            </li>
+            <div id="holidays">
+                <li id="new">
+                    <a href="#">
+                        <i class="fa fa-glass"></i>
+                        &nbsp;
+                        New Year's
+                    </a>
+                </li>
+                <li id="val">
+                    <a href="#">
+                        <i class="fa fa-heart"></i>
+                        &nbsp;
+                        Valentine's Day
+                    </a>
+                </li>
+                <li id="east">
+                    <a href="#">
+                        <i class="fa fa-bell"></i>
+                        &nbsp;
+                        Easter
+                    </a>
+                </li>
+                <li id="jul">
+                    <a href="#">
+                        <i class="fa fa-flag"></i>
+                        &nbsp;
+                        Fourth of July
+                    </a>
+                </li>
+                <li id="hal">
+                    <a href="#">
+                        <i class="fa fa-bug"></i>
+                        &nbsp;
+                        Halloween
+                    </a>
+                </li>
+                <li id="chr">
+                    <a href="#">
+                        <i class="fa fa-tree"></i>
+                        &nbsp;
+                        Christmas
+                    </a>
+                </li>
+            </div>
+            <li id="cart">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    &nbsp;
+                    Cart
+                </a>
+            </li>
+        </ul>
+        <h1>Holiday Rentals</h1>
+    </div>
 </body>
 </html>

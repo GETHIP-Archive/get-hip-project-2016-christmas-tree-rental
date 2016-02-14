@@ -1,3 +1,4 @@
+/* General Styling */
 html, body {
     width:100%;
     height:100%;
@@ -5,6 +6,7 @@ html, body {
     padding:0;
     background-color:#FAFAFA;
 }
+/* Navagation Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -73,12 +75,7 @@ li#cart {
 	text-align: right;
 	padding-left:100px;
 }
-img {
-	float:right;
-	padding-left:50px;
-    width: 25px;
-    height: 25px;
-}
+/* Page Content */
 h1 {
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
