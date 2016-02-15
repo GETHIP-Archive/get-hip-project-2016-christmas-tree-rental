@@ -39,6 +39,7 @@ The decorations table will contain a full index of all the offered decorations i
 | Column Name | Data Type | Primary Key | Not Null | Binary | Zero Fill | Auto Increment | Default Value |
 |:-----------:|:-----------:|:-----------:|:--------:|:------:|:---------:|:--------------:|:-------------:|
 | productid | INT | TRUE | TRUE | FALSE | FALSE | TRUE | NONE |
+| name | VARCHAR(50) | FLASE | FALSE | FALSE | FALSE | FALSE | NULL |
 | price | DOUBLE | FALSE | TRUE | FALSE | FALSE | FALSE | 0.00 |
 | holiday | VARCHAR(20) | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
 
