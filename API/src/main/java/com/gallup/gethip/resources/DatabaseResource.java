@@ -11,13 +11,13 @@ public class DatabaseResource {
 	private ResultSet rs;
 	public DatabaseResource() {
 		try {
-			//URL to fetch the database from
-			String dbUri = "jdbc:mysql://localhost/holiday-rental-db";
+			//URL to fetch the database from (waiting for James)
+			String dbUri = "REPLACE_WITH_DB_URL";
 			System.out.println("Action: Connecting to connect to database");
 			//Setting up the JDBC driver that allows java to interact with database
 			Class.forName("com.mysql.jdbc.Driver");
-			//Connects to database using username 'root' and no password
-			con = DriverManager.getConnection(dbUri, "root", "");
+			//Connects to database using the username and password James gave us
+			con = DriverManager.getConnection(dbUri, "rental", "gethip");
 			//No idea what this is
 			st = con.createStatement();
 			System.out.println("Success: Connected to database: " + dbUri);
@@ -128,15 +128,8 @@ public class DatabaseResource {
 		for (int i = 0; i < outputJSON.length; i++) {
 			finalOutput = finalOutput + outputJSON[i];
 		}
-		//More pretty formatting...
+		//Normally the rest of the JSON would formatted here, but I would need to see server output first
 		System.out.println("Action: Formatting JSON output");
-		finalOutput = finalOutput.replace("\"ap\":false,","\"ap\":false\n},{\n");
-		finalOutput = finalOutput.replace("\"ap\":true,","\"ap\":true\n},{\n");
-		finalOutput = finalOutput.replace(",",",\n");
-		finalOutput = finalOutput.replace("},","},\n");
-		finalOutput = finalOutput.replace("\n\"","\n\t\"");
-		finalOutput = finalOutput.replace("[{\"","[{\n\t\"");
-		finalOutput = finalOutput.replace("}]","\n}]");
 		return finalOutput;
 	}
 }
