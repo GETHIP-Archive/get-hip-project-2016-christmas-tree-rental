@@ -81,3 +81,25 @@ h1 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 72px;
 }
+div.btncontainer {
+    width:100%;
+    text-align:center;
+}
+/*Results*/
+div.results {
+    text-align:center;
+}
+table.table {
+    width:80%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse:separate; 
+    border-spacing:5em;
+}
+td.item {
+    height:15em;
+    width:90%;
+    border:1px solid black;
+    text-align:center;
+}

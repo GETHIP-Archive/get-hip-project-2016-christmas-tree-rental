@@ -66,5 +66,16 @@
         </li>
     </ul>
     <h1>Holiday Rentals</h1>
+    <br>
+    <div class="btncontainer">
+        <button onclick="retrieve('GET','https://raw.githubusercontent.com/GETHIP-Classroom/get-hip-project-2016-christmas-tree-rental/master/UI/assets/data/products.json')">Fetch Products from JSON</button>
+    </div>
+    <br>
+    <div class="results">
+        <table class="table">
+            <tbody class="tbody"><!--This HTML will be filled by JS--></tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="assets/js/retrieve.js" defer></script>
 </body>
 </html>
