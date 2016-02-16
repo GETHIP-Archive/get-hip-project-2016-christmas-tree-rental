@@ -12,7 +12,7 @@ public class DatabaseResource {
 	public DatabaseResource() {
 		try {
 			//URL to fetch the database from (waiting for James)
-			String dbUri = "REPLACE_WITH_DB_URL";
+			String dbUri = "https://www.jgetrost.com:3306";
 			System.out.println("Action: Connecting to connect to database");
 			//Setting up the JDBC driver that allows java to interact with database
 			Class.forName("com.mysql.jdbc.Driver");

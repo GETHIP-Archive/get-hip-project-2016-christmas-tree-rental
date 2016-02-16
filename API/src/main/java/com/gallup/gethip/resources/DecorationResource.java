@@ -3,14 +3,14 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-
+import DecorationService;
 @Path("/api")
 public class DecorationResource {
 	//[Default] Outputs all decorations (example.com/api)
 	@GET
 	@Produces("application/json")
 	public static String rZero() {
-		return DecoratioService.getAll();
+		return DecorationService.getAll();
 	}
 	//Outputs all decorations (example.com/api/all)
 	@Path("/all")
