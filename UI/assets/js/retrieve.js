@@ -15,7 +15,7 @@ function parse(data) {
         add(json.products[i].id,json.products[i].name,json.products[i].price,json.products[i].holiday);
     }
 }
-function add(id,name,price,holiday) {
+function add(pid,name,price,holiday) {
     var node0,node1,node2,node3,node4,node5,node6,txt0,txt1,txt2,txt3;
     node0 = document.createElement("i");
     txt0 = document.createTextNode(holiday);
@@ -31,7 +31,7 @@ function add(id,name,price,holiday) {
     node6 = document.createElement("button");
     txt3 = document.createTextNode("Add to Cart");
     node6.appendChild(txt3);
-    node6.setAttribute('onclick','cart("' + id + '")');
+    node6.setAttribute('onclick','cart("' + pid + '")');
     node4 = document.createElement("td");
     node4.appendChild(node3);
     node4.appendChild(node2);
@@ -41,6 +41,7 @@ function add(id,name,price,holiday) {
     node5 = document.createElement("tr");
     node5.appendChild(node4);
     node5.className = "row";
+    node5.id = ("-"); //TODO add data to id
     document.getElementsByClassName("tbody")[0].appendChild(node5);
 }
 function cart(l) {
