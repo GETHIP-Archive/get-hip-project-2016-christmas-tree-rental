@@ -45,6 +45,8 @@ The decorations table will contain a full index of all the offered decorations i
 
 **productid**: An auto-generated, auto-incrementing, identification number specific to each product (Ex. `142`)
 
+**name**: The name of the specific product (Ex. `Party Cooler`)
+
 **price**: A dollar price value for the product (Ex. `4.25`)
 
 **holiday**: The holiday associated with the decoration (Ex. `Christmas`)
@@ -56,9 +58,12 @@ The cart table will contain a listing of all items currently in the cart, includ
 | Column Name | Data Type | Primary Key | Not Null | Binary | Zero Fill | Auto Increment | Default Value |
 |:-----------:|:---------:|:-----------:|:--------:|:------:|:---------:|:--------------:|:-------------:|
 | productid | INT | FALSE | TRUE | FALSE | FALSE | FALSE | NONE |
+| cartid | INT | TRUE | TRUE | FALSE | FALSE | TRUE | NONE |
 | dateadded | DATE | FALSE | FALSE | FALSE | FALSE | FALSE | NULL |
 
 **productid**: The productid number [found in the decorations table] identifying the product in the cart (Ex. `72`)
+
+**cartid**: The auto-generated, primary integer used to reference items in the cart (Ex. `12`)
 
 **dateadded**: The date [in MySQL format] when the client added the product to their cart (Ex. `2016-02-19`)
 
