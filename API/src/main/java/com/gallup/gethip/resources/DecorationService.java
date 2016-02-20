@@ -1,5 +1,5 @@
 package com.gallup.gethip.resources;
-import DatabaseResource;
+import com.gallup.gethip.resources.DatabaseResource;
 public class DecorationService {
 	//GET Methods
 	public static String getAll() {
@@ -22,6 +22,7 @@ public class DecorationService {
 			output = connect.getData("SELECT * FROM decorations WHERE holiday = '" + h + "' ORDER BY name;");
 		} catch (Exception ex) {
 			System.out.println("Error retrieving decorations by holiday: " + ex);
+		}
 		return output;
 	}
 	public static String getProductId(String i) {
@@ -41,9 +42,10 @@ public class DecorationService {
 		output = "";
 		try {
 			DatabaseResource connect = new DatabaseResource();
-			output = connect.getData("SELECT * FROM decorations WHERE name = '" + n + "';")
+			output = connect.getData("SELECT * FROM decorations WHERE name = '" + n + "';");
 		} catch (Exception ex) {
 			System.out.println("Error retrieving decorations by product name: " + ex);
+		}
 		return output;
-	}
+	}	
 }

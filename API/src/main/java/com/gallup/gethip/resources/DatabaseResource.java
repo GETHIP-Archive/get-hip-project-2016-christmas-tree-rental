@@ -1,6 +1,6 @@
 //Package Declaration
 package com.gallup.gethip.resources;
-//Impor SQL and JSON tools from external libraries
+//Import SQL and JSON tools from external libraries
 import java.sql.*;
 import org.json.JSONArray;
 import org.json.JSONObject;

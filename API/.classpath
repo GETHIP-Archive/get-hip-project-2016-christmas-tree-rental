@@ -25,5 +25,8 @@
 	<classpathentry kind="lib" path="C:/Users/Yuanchun/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
 	<classpathentry kind="lib" path="C:/Users/avguest/Downloads/java-json.jar/java-json.jar"/>
 	<classpathentry kind="lib" path="C:/Users/avguest/.m2/repository/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar"/>
+	<classpathentry kind="lib" path="C:/Users/avguest/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/avguest/.m2/repository/com/j256/ormlite/ormlite-jdbc/4.48/ormlite-jdbc-4.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/avguest/.m2/repository/com/j256/ormlite/ormlite-core/4.48/ormlite-core-4.48.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
