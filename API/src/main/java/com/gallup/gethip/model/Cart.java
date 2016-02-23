@@ -10,8 +10,8 @@ import com.j256.ormlite.table.DatabaseTable;
 @DatabaseTable(tableName="cart")
 public class Cart {
 	
-	@DatabaseField(generatedId = true, columnName = "id")
-	private int id;
+	@DatabaseField(generatedId = true, columnName = "cartid")
+	private int cartid;
 	
 	@DatabaseField(columnName = "dateAdded")
 	private Date dateAdded;
@@ -21,6 +21,10 @@ public class Cart {
 	
 	public void setInstall(boolean b){
 		this.install = b;
+	}
+	
+	public int getID(){
+		return this.cartid;
 	}
 	
 	public boolean getInstall(){

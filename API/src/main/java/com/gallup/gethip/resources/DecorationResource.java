@@ -61,6 +61,18 @@ public class DecorationResource {
 		return DecorationService.deleteDecoration(id);
 	}
 	
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	public Decoration rSix(@PathParam("decoration") Decoration d){
+		return DecorationService.createDecoration(d);
+	}
 	
+	@PUT
+	@Produces("text/plain")
+	@Consumes("application/json")
+	public String rSeven(@PathParam("decoration") Decoration d){
+		return DecorationService.updateDecoration(d);
+	}
 	
 }
