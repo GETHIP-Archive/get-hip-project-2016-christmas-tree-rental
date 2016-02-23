@@ -15,7 +15,7 @@ import com.gallup.gethip.DataSourceManager;
 import com.gallup.gethip.model.Decoration;
 import com.gallup.gethip.resources.DecorationService;
 import com.j256.ormlite.dao.Dao;
-@Path("/api")
+@Path("/api/decoration")
 public class DecorationResource {
 	//[Default] Outputs all decorations (example.com/api)
 	@GET

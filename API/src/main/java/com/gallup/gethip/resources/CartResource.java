@@ -6,7 +6,7 @@ import javax.ws.rs.Produces;
 
 import com.gallup.gethip.model.Decoration;
 import com.gallup.gethip.resources.CartResource;
-@Path("/api")
+@Path("/api/cart")
 public class CartResource {
 	@GET
 	@Produces("application/json")
