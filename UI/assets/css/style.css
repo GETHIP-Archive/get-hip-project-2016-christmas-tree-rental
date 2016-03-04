@@ -1,0 +1,173 @@
+@font-face {
+    font-family:Adobe-Garamond;
+    src: url(../fonts/AdobeGaramond.ttf);
+}
+
+* {
+    font-family:Adobe-Garamond;
+}
+
+html, body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width:100%;
+	height:100%;
+    background-color: #EEF7F8;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-size: 22px;
+    height:8%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 60px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #1B9AAA;
+	
+}
+
+#cart {
+	float: right;
+	text-align: right;
+	padding-left:100px;
+}
+
+#cart2{
+	float:right;
+	padding-left:50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 72px;
+}
+
+#slides {
+    height:92%;
+    width:100%;
+    background-image: url(../images/slideshow/christmas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    z-index:2;
+}
+
+#action {
+    height:10%;
+    width:20%;
+    background-color:#1B9AAA;
+    border:4px solid #1B73AA;
+    margin-top:20%;
+    margin-bottom:20%;
+    z-index: 5;
+    color:#FFFFFF;
+    font-size:1.5em;
+}
+#action:active {
+    background-color:#1B73AA;
+    border:4px solid #1B9AAA;
+}
+
+.container {
+    position:relative;
+    width:100%;
+    height:350px;
+    overflow:hidden;			
+}
+
+#tree {
+	float: left;
+}
+
+#ds {
+	float: left;
+	padding-top: 20px;
+}
+#counter1 {
+	font-size: 35px;
+	color: #1B9AAA;
+}
+
+#counter2 {
+	font-size: 35px;
+	color: #1B9AAA;	
+}
+
+#counter3 {
+	font-size: 35px;
+	color: #1B9AAA;
+}
+
+#halloween {
+	float:left;
+	padding-left: 30px;
+}
+
+#valentine {
+	float:left;
+	padding-left: 30px;
+}
+
+#christmas {
+	float:left;
+	padding-left: 30px;
+}
+
+#counters {
+	padding-left:120px;
+}
+
+#days {
+	padding-left: 250px;
+	font-size: 55px;	
+}
+
+#notdays {
+	text-align: center;
+	font-size: 45px;
+}
+
+#blurb{
+	padding-left: 300px;
+	font-size: 20px;
+	padding-right: 300px;	
+}
+
+#breakers {
+	font-size: 40px;
+	padding-left: 200px;
+	color: #1B9AAA;
+}
+
+#form {
+	padding-left: 200px;	
+}
+
+#purchase {
+	float: right;	
+}
+
+footer {
+	background-color: #DDDBCB;
+}
+
+#colorblock {
+	background-color: #1B9AAA;
+}
